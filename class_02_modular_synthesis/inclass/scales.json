@@ -1,0 +1,14 @@
+{
+	"pythagorean" : 	{
+		"name" : "justintonation",
+		"frequencies" : [260.74, 278.44, 293.33, 309.03, 330, 347.65, 371.25, 391.11, 417.66, 440, 463.54, 495, 521.48]
+	}
+,
+	"scalescale" : 	{
+		"adapter" : "sqlite3",
+		"database" : "db/production.sqlite3",
+		"pool" : 5,
+		"timeout" : 5000
+	}
+
+}

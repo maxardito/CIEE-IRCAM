@@ -4,7 +4,7 @@
 
 2. FM/AM/PM/RM, additive synthesis, tuning methods, sum & difference tones
 
-3. Envelopes, sound objects, sequencers, euclydian rhythms, more MIDI
+3. Envelopes, sound objects, sequencers, euclydian rhythms, MIDI mapping
 
 4. Granular synthesis, sampling, wavetable synthesis, mixing (vector synthesis)
 

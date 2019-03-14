@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,44 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 135.0, 327.5, 115.0, 74.0 ],
+					"presentation_linecount" : 5,
+					"text" : "Notes are transposed drunkenly between 0-30 steps above their initial value"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 372.0, 89.0, 115.0, 60.0 ],
+					"presentation_linecount" : 3,
+					"text" : "Random notes within an octave between MIDI values 40-52"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 250.0, 26.0, 150.0, 47.0 ],
+					"text" : "Tempo changes every 1 second, between 50ms-200ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"linecount" : 10,
 					"maxclass" : "comment",
@@ -69,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 378.0, 333.5, 80.0, 47.0 ],
-					"text" : "more about pack over here ->"
+					"text" : "[more about pack over here] >>>"
 				}
 
 			}
@@ -507,7 +545,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 168.0, 81.0, 32.0, 22.0 ],
-					"text" : "+ 70"
+					"text" : "+ 50"
 				}
 
 			}
@@ -520,8 +558,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 168.0, 54.0, 66.0, 22.0 ],
-					"text" : "random 60"
+					"patching_rect" : [ 168.0, 54.0, 73.0, 22.0 ],
+					"text" : "random 150"
 				}
 
 			}
@@ -932,8 +970,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 51.0, 112.0, 65.0, 22.0 ],
-					"text" : "metro 500"
+					"patching_rect" : [ 51.0, 112.0, 39.0, 22.0 ],
+					"text" : "metro"
 				}
 
 			}

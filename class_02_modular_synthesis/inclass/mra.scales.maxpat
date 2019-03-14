@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 562.0, 108.0, 640.0, 480.0 ],
+		"rect" : [ 568.0, 79.0, 628.0, 533.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -165,17 +165,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 97.0, 212.0, 183.0, 35.0 ],
 					"text" : "combine pythagorean :: frequencies [ 0 ] @triggers 0 2 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 462.0, 100.0, 22.0 ]
 				}
 
 			}

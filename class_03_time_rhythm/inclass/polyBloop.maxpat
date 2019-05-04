@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 801.0, 79.0, 803.0, 659.0 ],
+		"rect" : [ 513.0, 130.0, 803.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 219.0, 75.0, 22.0 ],
+					"patching_rect" : [ 14.0, 195.0, 75.0, 22.0 ],
 					"text" : "append 0 10"
 				}
 
@@ -70,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 253.0, 152.0, 49.0 ],
-					"text" : "3634 8 2940 28 3277 19 4208 5 2765 18 4600 15 4696 16 4479 2 0 10"
+					"text" : "3112 0 3927 12 4119 11 3294 26 2239 27 2359 18 4272 8 2516 5 0 10"
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 100.0, 191.0, 22.0, 22.0 ],
+					"patching_rect" : [ 100.0, 195.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -98,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -740,32 +740,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 191.0, 68.0, 22.0 ],
+					"patching_rect" : [ 14.0, 167.0, 68.0, 22.0 ],
 					"text" : "zl.group 16"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 212.5, 604.0, 150.0, 33.0 ],
-					"text" : "use \"out\" and \"out~\" for poly~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 546.0, 17.5, 91.0, 33.0 ],
-					"text" : "Use \"in\" and \"in~\" for poly~"
 				}
 
 			}
@@ -788,6 +764,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 604.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -800,6 +780,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 513.5, 17.5, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1207,7 +1191,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

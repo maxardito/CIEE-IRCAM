@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -73,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -282,8 +282,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 572.0, 134.0, 97.0, 22.0 ],
-									"text" : "scale 0 100 0. 1."
+									"patching_rect" : [ 572.0, 134.0, 103.0, 22.0 ],
+									"text" : "scale 0 1000 0. 1."
 								}
 
 							}
@@ -294,8 +294,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 572.0, 100.0, 79.0, 22.0 ],
-									"text" : "drunk 100 10"
+									"patching_rect" : [ 572.0, 100.0, 92.0, 22.0 ],
+									"text" : "drunk 1000 100"
 								}
 
 							}
@@ -306,8 +306,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 467.79998779296875, 134.0, 97.0, 22.0 ],
-									"text" : "scale 0 100 0. 1."
+									"patching_rect" : [ 467.79998779296875, 134.0, 103.0, 22.0 ],
+									"text" : "scale 0 1000 0. 1."
 								}
 
 							}
@@ -318,8 +318,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 467.79998779296875, 100.0, 79.0, 22.0 ],
-									"text" : "drunk 100 10"
+									"patching_rect" : [ 467.79998779296875, 100.0, 92.0, 22.0 ],
+									"text" : "drunk 1000 100"
 								}
 
 							}
@@ -330,8 +330,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 363.399993896484375, 134.0, 97.0, 22.0 ],
-									"text" : "scale 0 100 0. 1."
+									"patching_rect" : [ 363.399993896484375, 134.0, 103.0, 22.0 ],
+									"text" : "scale 0 1000 0. 1."
 								}
 
 							}
@@ -342,8 +342,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 363.399993896484375, 100.0, 79.0, 22.0 ],
-									"text" : "drunk 100 10"
+									"patching_rect" : [ 363.399993896484375, 100.0, 92.0, 22.0 ],
+									"text" : "drunk 1000 100"
 								}
 
 							}
@@ -354,8 +354,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 258.79998779296875, 134.0, 97.0, 22.0 ],
-									"text" : "scale 0 100 0. 1."
+									"patching_rect" : [ 258.79998779296875, 134.0, 103.0, 22.0 ],
+									"text" : "scale 0 1000 0. 1."
 								}
 
 							}
@@ -366,8 +366,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 258.79998779296875, 100.0, 79.0, 22.0 ],
-									"text" : "drunk 100 10"
+									"patching_rect" : [ 258.79998779296875, 100.0, 92.0, 22.0 ],
+									"text" : "drunk 1000 100"
 								}
 
 							}
@@ -378,8 +378,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 154.399993896484375, 134.0, 97.0, 22.0 ],
-									"text" : "scale 0 100 0. 1."
+									"patching_rect" : [ 154.399993896484375, 134.0, 103.0, 22.0 ],
+									"text" : "scale 0 1000 0. 1."
 								}
 
 							}
@@ -390,8 +390,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 154.399993896484375, 100.0, 79.0, 22.0 ],
-									"text" : "drunk 100 10"
+									"patching_rect" : [ 154.399993896484375, 100.0, 92.0, 22.0 ],
+									"text" : "drunk 1000 100"
 								}
 
 							}
@@ -402,8 +402,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 134.0, 97.0, 22.0 ],
-									"text" : "scale 0 100 0. 1."
+									"patching_rect" : [ 50.0, 134.0, 103.0, 22.0 ],
+									"text" : "scale 0 1000 0. 1."
 								}
 
 							}
@@ -426,8 +426,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 100.0, 79.0, 22.0 ],
-									"text" : "drunk 100 10"
+									"patching_rect" : [ 50.0, 100.0, 92.0, 22.0 ],
+									"text" : "drunk 1000 100"
 								}
 
 							}

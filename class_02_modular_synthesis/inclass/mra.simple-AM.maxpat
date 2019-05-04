@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -181,20 +181,20 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 202.666671752929688, 133.0, 205.0, 22.0 ],
+					"patching_rect" : [ 202.666671752929688, 133.0, 216.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 2219.080272108843474, "ticks" ],
-						"originaltempo" : 120.0,
+						"originallength" : [ 201648.587755102023948, "ticks" ],
+						"originaltempo" : 119.999999999999986,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "sfplay~ @audiofile anton.aif @loop 1"
+					"text" : "sfplay~ @audiofile crispy.mp3 @loop 1"
 				}
 
 			}
@@ -324,7 +324,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 517.0, 178.0, 255.0, 22.0 ],
+					"patching_rect" : [ 517.0, 193.0, 255.0, 22.0 ],
 					"text" : "selector~ 4"
 				}
 

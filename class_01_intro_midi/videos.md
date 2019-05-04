@@ -24,8 +24,5 @@ Matthew D. Gantt at The Glove: https://www.youtube.com/watch?v=5TfpU5rdBTg
 
 ------
 
-AUDIO FILES
-Speech
-Drums
 
 

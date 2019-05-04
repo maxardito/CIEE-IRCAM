@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 909.0, 79.0, 526.0, 642.0 ],
+		"rect" : [ 498.0, 79.0, 526.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -274,20 +274,20 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 200.666671752929688, 131.0, 205.0, 22.0 ],
+					"patching_rect" : [ 200.666671752929688, 131.0, 216.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 2219.080272108843474, "ticks" ],
-						"originaltempo" : 120.0,
+						"originallength" : [ 201648.587755102023948, "ticks" ],
+						"originaltempo" : 119.999999999999986,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "sfplay~ @audiofile anton.aif @loop 1"
+					"text" : "sfplay~ @audiofile crispy.mp3 @loop 1"
 				}
 
 			}

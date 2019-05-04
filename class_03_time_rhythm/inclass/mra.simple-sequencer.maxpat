@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 187.0, 79.0, 956.0, 460.0 ],
+		"rect" : [ 338.0, 194.0, 957.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,28 +39,55 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
+					"id" : "obj-19",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.0, 296.0, 150.0, 20.0 ],
-					"text" : "TODO: PRESET"
+					"patching_rect" : [ 95.0, 427.0, 150.0, 74.0 ],
+					"text" : "Message format: horizontal coordinate, vertical coordinate, value [0 or 1 if dial mode is turned off]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "preset",
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 41.0, 427.0, 50.0, 22.0 ],
+					"text" : "1 4 9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 4,
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 737.0, 321.0, 100.0, 40.0 ]
+					"numoutlets" : 0,
+					"patching_rect" : [ 552.047607421875, 316.0, 97.0238037109375, 60.0 ],
+					"text" : "This poly~ objectd features a playlist of 808 sounds"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 233.0, 26.0, 150.0, 114.0 ],
+					"text" : "The matrixctrl object in dial mode. Representd a 16 step sequencer, with each vertical row representing an 808 sound. Drag the dials to change volume of each step"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.317647058823529, 0.737254901960784, 0.713725490196078, 1.0 ],
 					"id" : "obj-108",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -594,6 +621,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-1", 1 ]
 				}
@@ -1041,63 +1075,63 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "polyPlaylist.maxpat",
-				"bootpath" : "~/Desktop/CLASS/class_03_time_rhythm/inclass",
+				"bootpath" : "~/Documents/ciee-class/class_03_time_rhythm/inclass",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Clap01.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Clave1.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Conga3.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Cowbell3.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-HiHats01.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Kicks01.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-OpenHiHats02.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Ride3.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1

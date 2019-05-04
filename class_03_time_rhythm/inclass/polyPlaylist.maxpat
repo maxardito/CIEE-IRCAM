@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1132.0, 79.0, 485.0, 451.0 ],
+		"rect" : [ 1132.0, 79.0, 345.0, 432.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,6 +68,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.0, 375.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -80,6 +84,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 47.0, 14.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -89,194 +97,194 @@
 					"clipheight" : 20.375,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-Clap01.wav",
+								"absolutepath" : "808-Clap01.wav",
 								"filename" : "808-Clap01.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-Clave1.wav",
+								"absolutepath" : "808-Clave1.wav",
 								"filename" : "808-Clave1.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-Conga3.wav",
+								"absolutepath" : "808-Conga3.wav",
 								"filename" : "808-Conga3.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-Cowbell3.wav",
+								"absolutepath" : "808-Cowbell3.wav",
 								"filename" : "808-Cowbell3.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-HiHats01.wav",
+								"absolutepath" : "808-HiHats01.wav",
 								"filename" : "808-HiHats01.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-Kicks01.wav",
+								"absolutepath" : "808-Kicks01.wav",
 								"filename" : "808-Kicks01.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-OpenHiHats02.wav",
+								"absolutepath" : "808-OpenHiHats02.wav",
 								"filename" : "808-OpenHiHats02.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
 , 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Desktop/CLASS/sounds/808_drum_kit/808-Ride3.wav",
+								"absolutepath" : "808-Ride3.wav",
 								"filename" : "808-Ride3.wav",
 								"filekind" : "audiofile",
 								"loop" : 0,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
 									"quality" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"formant" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ]
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
@@ -332,56 +340,56 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "808-Clap01.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Clave1.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Conga3.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Cowbell3.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-HiHats01.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Kicks01.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-OpenHiHats02.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "808-Ride3.wav",
-				"bootpath" : "~/Desktop/CLASS/sounds/808_drum_kit",
+				"bootpath" : "~/Documents/ciee-class/sounds/808_drum_kit",
 				"patcherrelativepath" : "../../sounds/808_drum_kit",
 				"type" : "WAVE",
 				"implicit" : 1

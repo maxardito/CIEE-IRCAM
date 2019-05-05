@@ -14,11 +14,11 @@
 
 7. Assignment 1: Musique Concrète, compose musique concrète piece in Max or within DAW (Given after first weekend)
 
-9. Intro to realtime DSP: reverb, compression, transient detection, envelope following, real-time sampling, and other studio techniques (+ review of realtime effects such as using input amplitude to control synths)
+9. Intro to realtime DSP: reverb, compression, transient detection, envelope following, real-time sampling, and other studio techniques (+ review of realtime effects such as using input amplitude to control synths, edge detection. Show vids of boulez antheme 2, repons, saariaho, live processing pieces, etc.)
 
 10. The Joy of FFT: analysis/resynthesis, vocoders, pitch tracking, freezing, pitch shifting, spectral filters, concatenative synthesis, bonk~ 
 
-11. Noise: distortion, waveshaping, bitcrushing, overdrive, feedback, noise music as a subcultural phenomenon (The wolfman, russolo, i am sitting in a room, guy with mics attached to his body to speakers, clip~)
+11. Noise: distortion, waveshaping, bitcrushing, overdrive, feedback, noise music as a subcultural phenomenon (The wolfman, russolo, i am sitting in a room, dreamcrusher, guy with mics attached to his body to speakers, clip~)
 
 13. MIDTERM
 

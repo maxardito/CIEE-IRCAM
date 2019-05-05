@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 542.0, 79.0, 554.0, 460.0 ],
+		"rect" : [ 542.0, 79.0, 609.0, 462.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-11",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 483.0, 38.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 483.0, 74.999984741210938, 40.0, 22.0 ],
+					"text" : "rand~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 14.0,
 					"id" : "obj-3",
@@ -46,9 +71,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.427268981933594, 12.600006103515625, 165.0, 38.0 ],
-					"text" : "Meet The Generators of Max...",
-					"textjustification" : 0
+					"patching_rect" : [ 15.427268981933594, 12.600006103515625, 169.0, 38.0 ],
+					"text" : "Meet The Generators of Max..."
 				}
 
 			}
@@ -60,7 +84,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 482.98443603515625, 43.000015258789062, 24.0, 24.0 ]
+					"patching_rect" : [ 538.741556167602539, 43.000015258789062, 24.0, 24.0 ]
 				}
 
 			}
@@ -149,11 +173,11 @@
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
-					"numinlets" : 9,
+					"numinlets" : 10,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 36.927268981933594, 131.000015258789062, 465.05718994140625, 22.0 ],
-					"text" : "selector~ 8"
+					"patching_rect" : [ 36.927268981933594, 131.000015258789062, 520.814287185668945, 22.0 ],
+					"text" : "selector~ 9"
 				}
 
 			}
@@ -248,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 482.98443603515625, 74.999984741210938, 39.0, 22.0 ],
+					"patching_rect" : [ 538.741556167602539, 74.999984741210938, 39.0, 22.0 ],
 					"text" : "click~"
 				}
 
@@ -256,8 +280,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 8 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 4 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -325,7 +363,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 8 ],
+					"destination" : [ "obj-13", 9 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 648.0, 89.0, 295.0, 231.0 ],
+		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,12 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 37.0, 163.0, 127.0 ],
-					"text" : "ASSIGNMENT 1: Acousmatic Piece // \nMusique Concrete Piece\n\nSpend the entire class composing a 3 minute piece currated to a YouTube video, or section of YouTube video of your choice. "
+					"patching_rect" : [ 271.0, 113.0, 52.0, 22.0 ],
+					"text" : "stretch~"
 				}
 
 			}

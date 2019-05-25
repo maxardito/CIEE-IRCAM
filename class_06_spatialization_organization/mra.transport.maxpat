@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 745.0, 79.0, 640.0, 480.0 ],
+		"rect" : [ 745.0, 79.0, 451.0, 367.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,40 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 283.0, 128.5, 104.0, 33.0 ],
+					"text" : "[double click transport object]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 16.0,
+					"id" : "obj-52",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 29.0, 26.0, 200.5, 24.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 270.0, 89.0, 150.0, 42.0 ],
+					"text" : "Simple Global Transport"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 61.0, 67.0, 22.0 ],
+					"patching_rect" : [ 68.0, 63.0, 67.0, 22.0 ],
 					"text" : "timesig 3 4"
 				}
 
@@ -56,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 146.5, 204.0, 22.0, 22.0 ],
+					"patching_rect" : [ 186.5, 206.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -67,7 +95,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 286.0, 45.0, 45.0 ]
+					"patching_rect" : [ 176.0, 288.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -78,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 146.5, 233.0, 39.0, 22.0 ],
+					"patching_rect" : [ 186.5, 235.0, 39.0, 22.0 ],
 					"text" : "click~"
 				}
 
@@ -91,7 +119,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 88.0, 171.0, 50.0, 22.0 ]
+					"patching_rect" : [ 128.0, 173.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -104,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 248.75, 92.0, 127.0, 23.0 ],
+					"patching_rect" : [ 288.75, 94.0, 127.0, 23.0 ],
 					"text" : "metro 4n @active 1"
 				}
 
@@ -117,7 +145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 146.5, 171.0, 50.0, 22.0 ]
+					"patching_rect" : [ 186.5, 173.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -130,7 +158,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 61.0, 50.0, 22.0 ]
+					"patching_rect" : [ 220.0, 63.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -141,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 92.0, 59.0, 22.0 ],
+					"patching_rect" : [ 220.0, 94.0, 59.0, 22.0 ],
 					"text" : "tempo $1"
 				}
 
@@ -154,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.0, 61.0, 24.0, 24.0 ]
+					"patching_rect" : [ 176.0, 63.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -165,8 +193,25 @@
 					"numinlets" : 2,
 					"numoutlets" : 9,
 					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-					"patching_rect" : [ 136.0, 126.5, 103.0, 22.0 ],
+					"patching_rect" : [ 176.0, 128.5, 103.0, 22.0 ],
 					"text" : "transport"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"border" : 3,
+					"bordercolor" : [ 0.756862745098039, 0.498039215686275, 0.23921568627451, 1.0 ],
+					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-3",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.375, 9.5, 425.25, 333.5 ],
+					"proportion" : 0.5
 				}
 
 			}

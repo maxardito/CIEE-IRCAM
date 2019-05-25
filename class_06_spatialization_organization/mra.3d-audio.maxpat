@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 693.0, 109.0, 640.0, 480.0 ],
+		"rect" : [ 420.0, 79.0, 235.0, 202.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,19 +39,54 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
+					"fontface" : 2,
+					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 83.0, 171.0, 33.0 ],
-					"text" : "PROMPT:\n- ?"
+					"patching_rect" : [ 60.0, 102.0, 120.0, 33.0 ],
+					"text" : "Download the ICST External package!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"patching_rect" : [ 74.0, 49.0, 81.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"active" : [ 1 ],
+						"aed_scale" : 10.0,
+						"center_att_db" : 6.0,
+						"center_curve" : 0.2,
+						"center_size" : 1.0,
+						"coord_angles" : 0,
+						"coord_system" : 0,
+						"db_unit" : 1.5,
+						"dist_att" : 1.0,
+						"distance_mode" : 1,
+						"gain" : 1.0,
+						"interpolation" : 1,
+						"order" : 1,
+						"type" : 1,
+						"xyz_scale" : 10.0
+					}
+,
+					"text" : "ambiencode~"
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "ambiencode~.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 

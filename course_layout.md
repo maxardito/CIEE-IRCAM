@@ -10,13 +10,13 @@
 
 5. Filters: highpass, lowpass, bandpass, formant filters. Delays: tapin tapout, comb~, teeth~
 
-6. Spatialization: mixing, panning, vector synthesis, 3D Audio. Organizing and refactoring your patches. (bpatcher, qlist, ";" messages, preset, pattr, autopattr, global transport, clocks, outputting info to Ableton & other DAWs, MIDI mapping)
+6. Spatialization: mixing, panning, vector synthesis, 3D Audio. Organizing and refactoring your patches. (bpatcher, qlist, ";" messages, preset, pattr, autopattr, global transport, clocks, outputting info to Ableton & other DAWs, MIDI mapping), train~ sah~
 
 7. Assignment 1: Musique Concrète, compose musique concrète piece in Max or within DAW (Given after first weekend)
 
 9. Intro to realtime DSP: reverb, compression, transient detection, envelope following, real-time sampling, and other studio techniques (+ review of realtime effects such as using input amplitude to control synths, edge detection. Show vids of boulez antheme 2, repons, saariaho, live processing pieces, etc.)
 
-10. The Joy of FFT: analysis/resynthesis, vocoders, pitch tracking, freezing, pitch shifting, spectral filters, concatenative synthesis, bonk~ 
+10. The Joy of FFT: analysis/resynthesis, vocoders, pitch tracking, freezing, pitch shifting, spectral filters, concatenative synthesis, bonk~, supervp
 
 11. Noise: distortion, waveshaping, bitcrushing, overdrive, feedback, noise music as a subcultural phenomenon (The wolfman, russolo, i am sitting in a room, dreamcrusher, guy with mics attached to his body to speakers, clip~)
 
@@ -32,11 +32,15 @@
 
 
 
+
 CURRICULUM TODOS:
--CLASS 2 SCALES PATCH - finish dict
--CLASS 5 ANNOTATE + INCLASS EXERCISE AND DELAYS
--CLASS 6 FINISH
-—CLASS 7 WRITE PROMPT
+-CLASS 09 Simple compresser, simple limiter (limiter + asmr), simple reverb, simple envelope following and simple edge detection (https://ccrma.stanford.edu/~jos/)
+
+-CLASS 10 SimpleAnalysis/Resynthesis, Build a vocoder, Build a pitch tracker and pair it with live input and PM synth, Build a freezer for drone piece, Build a spectral filter, Demonstrate/try to build concat synth, Build beatboxing machine with bonk~, Demonstrate supervp
+
+-CLASS 11 Simple distortion, simple overdrive, simple waveshaping, simple bitcrushing, simple feedback clip, simple compressor maxing, simple delay feedback.  (http://words.hushush.com/)
+
+-CLASSS 12 SimpleGL, GLfun (Sam's shader video), Simple procession with reactive visuals, simple camera sensors, MIRA demo
 
 
 

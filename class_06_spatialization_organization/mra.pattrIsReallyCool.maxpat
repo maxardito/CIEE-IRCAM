@@ -53,40 +53,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"border" : 3,
-					"bordercolor" : [ 0.756862745098039, 0.498039215686275, 0.23921568627451, 1.0 ],
-					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"id" : "obj-2",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 502.875, 24.25, 316.25, 137.5 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"border" : 3,
-					"bordercolor" : [ 0.756862745098039, 0.498039215686275, 0.23921568627451, 1.0 ],
-					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"id" : "obj-3",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 416.875, 194.5, 402.25, 262.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-1",
@@ -96,7 +62,7 @@
 					"patching_rect" : [ 589.75, 213.5, 192.5, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 270.0, 89.0, 150.0, 42.0 ],
+					"presentation_rect" : [ 270.0, 89.0, 152.0, 42.0 ],
 					"text" : "autopattr is Really Cool"
 				}
 
@@ -187,27 +153,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "stringquartet100000.json",
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 618.125, 99.25, 183.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 1072, 45, 1455, 407 ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"text" : "pattrstorage stringquartet100000",
-					"varname" : "stringquartet100000"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -250,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 691.0, 417.0, 50.0, 22.0 ],
-					"text" : "root 67"
+					"text" : "restore"
 				}
 
 			}
@@ -491,6 +436,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.996078431372549, 0.952941176470588, 0.345098039215686, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -500,13 +446,13 @@
 					"restore" : 					{
 						"Tempo" : [ 621.0 ],
 						"fifth" : [ 67 ],
-						"live.gain~" : [ -6.994750656168023 ],
+						"live.gain~" : [ -70.0 ],
 						"root" : [ 60 ],
 						"third" : [ 64 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u931001686"
+					"varname" : "u731001675"
 				}
 
 			}
@@ -523,6 +469,62 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.375, 9.5, 382.25, 443.5 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"border" : 3,
+					"bordercolor" : [ 0.756862745098039, 0.498039215686275, 0.23921568627451, 1.0 ],
+					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-3",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 416.875, 194.5, 402.25, 262.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autorestore" : "stringquartet100000.json",
+					"color" : [ 0.996078431372549, 0.952941176470588, 0.345098039215686, 1.0 ],
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 618.125, 99.25, 183.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 1072, 45, 1455, 407 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage stringquartet100000",
+					"varname" : "stringquartet100000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"border" : 3,
+					"bordercolor" : [ 0.756862745098039, 0.498039215686275, 0.23921568627451, 1.0 ],
+					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 502.875, 24.25, 316.25, 137.5 ],
 					"proportion" : 0.5
 				}
 

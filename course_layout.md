@@ -32,15 +32,13 @@
 
 
 
-
 CURRICULUM TODOS:
--CLASS 09 Simple compresser, simple limiter (limiter + asmr), simple reverb, simple envelope following and simple edge detection (https://ccrma.stanford.edu/~jos/)
 
--CLASS 10 SimpleAnalysis/Resynthesis, Build a vocoder, Build a pitch tracker and pair it with live input and PM synth, Build a freezer for drone piece, Build a spectral filter, Demonstrate/try to build concat synth, Build beatboxing machine with bonk~, Demonstrate supervp
+-CLASS 10 SimpleAnalysis/Resynthesis, Build a vocoder, Build a pitch tracker and pair it with live input and PM synth, Build a crosssynth, Build a freezer for drone piece, Build a spectral filter, Demonstrate/try to build concat synth, Build beatboxing machine with bonk~, Demonstra e supervp
 
--CLASS 11 Simple distortion, simple overdrive, simple waveshaping, simple bitcrushing, simple feedback clip, simple compressor maxing, simple delay feedback.  (http://words.hushush.com/)
+-CLASS 11 Simple distortion, simple overdrive, simple waveshaping, simple bitcrushing, simple feedback clip, simple compressor maxing, simple delay feedback.  (http://words.hushush.com/) MODULO DELAY LINE
 
--CLASSS 12 SimpleGL, GLfun (Sam's shader video), Simple procession with reactive visuals, simple camera sensors, MIRA demo
+-CLASSS 12 SimpleGL, GLfun (Sam's shader video), Simple procession with reactive visuals, boids, simple camera sensors, MIRA demo
 
 
 

@@ -85,7 +85,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1092.25, 252.5, 91.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "2.) Pan with mouse"
 				}
 
@@ -371,6 +370,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.384313725490196, 0.92156862745098, 0.180392156862745, 1.0 ],
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -383,6 +383,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.384313725490196, 0.92156862745098, 0.180392156862745, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -395,6 +396,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.384313725490196, 0.92156862745098, 0.180392156862745, 1.0 ],
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -407,6 +409,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.384313725490196, 0.92156862745098, 0.180392156862745, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1495,10 +1498,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-39" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-40" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-37" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-39" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}

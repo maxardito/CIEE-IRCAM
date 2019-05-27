@@ -47,8 +47,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 379.0, 300.0, 151.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 899.0, 77.0, 92.0, 114.0 ],
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 899.0, 77.0, 94.0, 100.0 ],
 					"text" : "Hover over the bpatcher windows, hold space bar, and use mousepad to scratch those ones and twos"
 				}
 
@@ -85,7 +85,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.75, 108.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -284,7 +284,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.25, 449.0, 95.0, 53.0 ],
+					"patching_rect" : [ 179.25, 449.0, 96.0, 53.0 ],
 					"text" : "Open me in presentation mode!"
 				}
 
@@ -343,6 +343,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.054901960784314, 0.847058823529412, 0.658823529411765, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -647,6 +648,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.054901960784314, 0.847058823529412, 0.658823529411765, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -693,6 +695,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.054901960784314, 0.847058823529412, 0.658823529411765, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

@@ -39,6 +39,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 16.0,
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.0, 22.399993896484375, 126.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 182.0, 32.0, 150.0, 42.0 ],
+					"text" : "Simple Edge-Detection"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 2,
 					"id" : "obj-1",
 					"linecount" : 2,
@@ -404,6 +421,23 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 210.4000244140625, 80.399993896484375, 77.0, 22.0 ],
 					"text" : "peakamp~ 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"border" : 3,
+					"bordercolor" : [ 0.843137254901961, 0.054901960784314, 0.254901960784314, 1.0 ],
+					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-10",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.958343505859375, 6.5, 506.75, 707.5 ],
+					"proportion" : 0.5
 				}
 
 			}

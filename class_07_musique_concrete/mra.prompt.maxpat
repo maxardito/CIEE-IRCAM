@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 648.0, 89.0, 295.0, 231.0 ],
+		"rect" : [ 648.0, 89.0, 292.0, 345.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 9,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 37.0, 163.0, 127.0 ],
-					"text" : "ASSIGNMENT 1: Acousmatic Piece // \nMusique Concrete Piece\n\nSpend the entire class composing a 3 minute piece currated to a YouTube video, or section of YouTube video of your choice. "
+					"patching_rect" : [ 71.0, 37.0, 165.0, 261.0 ],
+					"text" : "ASSIGNMENT 1: Acousmatic Piece // \nMusique Concrete Piece\n\nSpend the entire class composing a live 3 minute piece currated to a YouTube video, or section of YouTube video of your choice.\n\n-Incorporate sound from the video into your live score\n-Use the digital synthesis techniques we've explored\n-Perform with a MIDI controller or your laptop keyboard and mouse\n-Use autopattr to store presets cool presets"
 				}
 
 			}

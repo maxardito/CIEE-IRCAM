@@ -40,19 +40,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 2,
-					"id" : "obj-20",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 42.75, 356.0, 77.0, 74.0 ],
-					"text" : "Select the sounds you want to filter [sin wave or audio file]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
 					"id" : "obj-18",
 					"linecount" : 7,
 					"maxclass" : "comment",
@@ -104,44 +91,8 @@
 					"patching_rect" : [ 30.75, 24.0, 222.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 240.0, 59.0, 150.0, 42.0 ],
+					"presentation_rect" : [ 240.0, 59.0, 152.0, 42.0 ],
 					"text" : "Filters and Phaser Effects"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 321.0, 29.5, 22.0 ],
-					"text" : "2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 321.0, 29.5, 22.0 ],
-					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 125.0, 356.0, 68.0, 22.0 ],
-					"text" : "selector~ 2"
 				}
 
 			}
@@ -154,32 +105,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 364.0, 98.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-5",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 92.0, 248.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 92.0, 276.0, 43.0, 22.0 ],
-					"text" : "cycle~"
+					"patching_rect" : [ 362.75, 98.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -191,7 +117,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.0, 154.0, 24.0, 24.0 ]
+					"patching_rect" : [ 46.0, 209.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -202,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 92.0, 194.0, 179.0, 22.0 ],
+					"patching_rect" : [ 46.0, 249.0, 179.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -457,14 +383,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 101.5, 306.0, 159.0, 306.0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -493,17 +411,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
-					"midpoints" : [ 101.5, 228.0, 183.5, 228.0 ],
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 134.5, 389.0, 221.0, 389.0, 221.0, 281.0, 244.25, 281.0 ],
-					"source" : [ "obj-4", 0 ]
+					"midpoints" : [ 55.5, 282.0, 244.25, 282.0 ],
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -511,27 +421,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}

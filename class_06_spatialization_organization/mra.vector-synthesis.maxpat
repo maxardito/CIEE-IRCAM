@@ -72,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 824.0, 191.0, 70.0, 20.0 ],
-					"text" : "(pictslider)"
+					"text" : "[pictslider]"
 				}
 
 			}
@@ -1498,10 +1498,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-40" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-37" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-41" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-39" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-40" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}

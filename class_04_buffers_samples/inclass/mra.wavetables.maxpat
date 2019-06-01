@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 354.0, 474.0, 800.0, 675.0 ],
+		"rect" : [ 370.0, 79.0, 800.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.25, 37.5, 107.0, 87.0 ],
+					"patching_rect" : [ 645.25, 37.5, 108.0, 87.0 ],
 					"text" : "Choose vertical/horizontal playback frequencies, and number of rows to oscillate between"
 				}
 
@@ -57,8 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 349.0, 29.0, 103.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 349.0, 29.0, 105.0, 33.0 ],
 					"text" : "3.) Scrub through wavetable"
 				}
 
@@ -72,7 +71,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 168.0, 95.0, 103.0, 47.0 ],
-					"presentation_linecount" : 2,
 					"text" : "2.) Choose playback frequency"
 				}
 
@@ -87,7 +85,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 512.5, 37.5, 109.0, 38.0 ],
-					"presentation_linecount" : 3,
 					"text" : "2D Wavetable Synthesis"
 				}
 
@@ -236,7 +233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 355.5, 95.0, 73.0, 22.0 ],
-					"text" : "random 100"
+					"text" : "random 700"
 				}
 
 			}

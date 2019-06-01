@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 395.0, 102.0, 579.0, 650.0 ],
+		"rect" : [ 856.0, 79.0, 582.0, 552.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,13 +44,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 295.0, 566.0, 126.0, 20.0 ],
+					"patching_rect" : [ 345.0, 487.0, 126.0, 20.0 ],
 					"text" : "Clear the delay lines"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.274509803921569, 0.047058823529412, 0.772549019607843, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
@@ -141,8 +142,6 @@
 									"patching_rect" : [ 142.0, 252.0, 133.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 0.01 ],
-										"pitchshiftcent" : [ -7973 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -485,13 +484,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 32.5, 150.0, 87.0 ],
+					"patching_rect" : [ 40.0, 41.5, 150.0, 87.0 ],
 					"text" : "Arguments:\n1. freqshift factor\n2. pitchshift factor\n3. lowpass filter cutoff\n4. delay time\n5. input"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.274509803921569, 0.047058823529412, 0.772549019607843, 1.0 ],
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
@@ -582,8 +582,6 @@
 									"patching_rect" : [ 142.0, 252.0, 133.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"enabled" : [ 1 ],
-										"pitchshift" : [ 0.01 ],
-										"pitchshiftcent" : [ -7973 ],
 										"quality" : "basic",
 										"reportlatency" : 0,
 										"usecents" : 0
@@ -885,7 +883,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 566.0, 44.0, 22.0 ],
+					"patching_rect" : [ 475.0, 487.0, 44.0, 22.0 ],
 					"text" : "s clear"
 				}
 
@@ -897,7 +895,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 537.0, 35.0, 22.0 ],
+					"patching_rect" : [ 475.0, 458.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -959,17 +957,17 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 40.0, 400.0, 48.0, 136.0 ],
+					"patching_rect" : [ 273.0, 292.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ -70.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -70.0 ]
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1010,7 +1008,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 572.0, 45.0, 45.0 ]
+					"patching_rect" : [ 273.0, 464.0, 45.0, 45.0 ]
 				}
 
 			}

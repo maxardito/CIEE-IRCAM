@@ -44,19 +44,20 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 54.5, 150.0, 33.0 ],
+					"patching_rect" : [ 177.0, 71.5, 150.0, 33.0 ],
 					"text" : "This object is the fucking bees knees"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.588235294117647, 0.219607843137255, 0.219607843137255, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 82.0, 60.0, 88.0, 22.0 ],
+					"patching_rect" : [ 81.0, 77.0, 88.0, 22.0 ],
 					"text" : "supervp.trans~"
 				}
 

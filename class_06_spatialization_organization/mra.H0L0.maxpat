@@ -45,10 +45,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 379.0, 300.0, 151.0, 74.0 ],
+					"patching_rect" : [ 13.0, 249.0, 151.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 899.0, 77.0, 94.0, 100.0 ],
+					"presentation_rect" : [ 899.0, 77.0, 97.0, 100.0 ],
 					"text" : "Hover over the bpatcher windows, hold space bar, and use mousepad to scratch those ones and twos"
 				}
 
@@ -85,7 +85,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.75, 108.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -164,13 +164,13 @@
 					"presentation_rect" : [ 912.0, 500.0, 48.0, 135.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}

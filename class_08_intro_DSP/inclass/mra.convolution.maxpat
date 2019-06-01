@@ -39,13 +39,39 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 29.0, 12.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-2",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 226.0, 281.0, 150.0, 60.0 ],
+					"text" : "Drag and drop impulse responses from the IR file that came with the extension"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
 					"id" : "obj-22",
 					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 103.0, 150.0, 141.0 ],
-					"text" : "Unfortunately most of these aren't real-time parameters, so you might have to make a few instances of these if you want modularity. Since convolution is not a realtime process, think of this more like a unit on a studio rack"
+					"text" : "Unfortunately most of these aren't real-time parameters, so you might have to make a few instances of these if you want modularity. Since convolution is not a realtime process, think of this M4L more like a unit on a studio rack"
 				}
 
 			}
@@ -56,18 +82,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 296.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 13.0, 29.5, 22.0 ],
-					"text" : "1"
 				}
 
 			}
@@ -113,8 +127,18 @@
 					"outlettype" : [ "signal", "signal", "", "" ],
 					"patching_rect" : [ 29.0, 99.0, 347.0, 170.0 ],
 					"presentation_linecount" : 2,
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"patchername" : "Convolution Reverb.amxd",
 						"patchername_fallback" : "~/Music/Ableton/Factory Packs/Convolution Reverb/Convolution Reverb.amxd",
 						"showheader" : 0
@@ -233,6 +257,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"source" : [ "obj-5", 1 ]
 				}
@@ -261,15 +292,9 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
+			"obj-5" : [ "amxd~", "amxd~", 0 ],
 			"parameterbanks" : 			{
 
 			}

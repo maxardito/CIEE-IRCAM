@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 903.0, 446.0 ],
+		"rect" : [ 59.0, 104.0, 372.0, 174.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,6 +51,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.580392156862745, 0.333333333333333, 0.682352941176471, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -63,6 +64,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.580392156862745, 0.333333333333333, 0.682352941176471, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,

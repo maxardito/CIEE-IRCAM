@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 766.0, 79.0, 637.0, 479.0 ],
+		"rect" : [ 283.0, 79.0, 637.0, 479.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,17 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 375.0, 198.0, 77.0, 20.0 ],
+					"text" : "[waveform~]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"buffername" : "coolBuffer",
 					"id" : "obj-9",

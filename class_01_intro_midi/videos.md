@@ -3,7 +3,7 @@ Pics http://www.philippemanoury.com/?page_id=15
 
 -------
 
-Unveiling of the 4x: https://medias.ircam.fr/x7b9990
+Unveiling of the 4x (feat. Frank Zappa): https://medias.ircam.fr/x7b9990
 Pic: https://en.wikipedia.org/wiki/Sogitec_4X#/media/File:IRCAM_machine_room_in_1989.jpg
 
 -------

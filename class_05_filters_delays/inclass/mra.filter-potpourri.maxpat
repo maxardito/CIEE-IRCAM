@@ -131,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.000010666666753, 408.0, 153.0, 74.0 ],
+					"patching_rect" : [ 583.000010666666753, 408.0, 157.0, 74.0 ],
 					"text" : "Read all about these filters in the help files. The svf~ is especially cool. Turn on and off the toggles to pass different frequency ranges"
 				}
 
@@ -193,7 +193,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.333328247070312, 537.0, 53.0, 47.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Select from filters"
 				}
 
@@ -476,7 +475,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 26.0, 239.0, 204.0, 22.0 ],
-					"text" : "scale~ 0 1 0. 1. 2 @classic 0"
+					"text" : "scale~ 0 1 0. 1. 2"
 				}
 
 			}
@@ -537,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 349.5, 136.0, 53.0, 22.0 ],
+					"patching_rect" : [ 398.5, 119.25, 53.0, 22.0 ],
 					"text" : "poly 1 1"
 				}
 
@@ -585,7 +584,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 341.5, 93.0, 110.0, 22.0 ],
+					"patching_rect" : [ 341.5, 88.0, 110.0, 22.0 ],
 					"text" : "makenote 120 500"
 				}
 
@@ -1092,8 +1091,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "toggle", "toggle", 0 ],
 			"obj-1" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-20" : [ "toggle", "toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}

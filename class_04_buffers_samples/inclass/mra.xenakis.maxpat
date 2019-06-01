@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 993.0, 86.0, 555.0, 840.0 ],
+		"rect" : [ 529.0, 79.0, 555.0, 840.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 164.0, 184.0, 133.0, 74.0 ],
-					"text" : "mc.voiceallocator~ iterates through each instance of mc objects without need ing a counter!"
+					"text" : "mc.voiceallocator~ iterates through each instance of mc objects without needing a counter!"
 				}
 
 			}
@@ -229,13 +229,13 @@
 					"patching_rect" : [ 96.5, 628.0, 48.0, 125.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -429,8 +429,8 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 45117.0, "ms" ],
-						"loopstart" : [ 45073.0, "ms" ],
+						"loopend" : [ 49361.0, "ms" ],
+						"loopstart" : [ 48690.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
 						"originaltempo" : 120.0,

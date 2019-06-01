@@ -239,7 +239,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.733333333333348, 662.5, 134.0, 24.0 ],
+					"patching_rect" : [ 633.233333333333348, 673.0, 134.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 300.0, 119.0, 152.0, 24.0 ],
 					"text" : "Karplus Strong"
@@ -1409,7 +1409,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 142.5, 382.0, 29.5, 22.0 ],
+					"patching_rect" : [ 153.5, 367.0, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 

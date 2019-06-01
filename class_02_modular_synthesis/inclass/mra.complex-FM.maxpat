@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 523.0, 150.0, 33.0 ],
+					"patching_rect" : [ 205.0, 523.0, 150.0, 33.0 ],
 					"text" : "just be sure to fill in all the number boxes!"
 				}
 
@@ -56,12 +56,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 25.0, 172.0, 38.0 ],
-					"text" : "The limits of FM are simply endless :-)...",
+					"patching_rect" : [ 168.0, 9.5, 172.0, 53.0 ],
+					"text" : "The limits of modular synthesis are simply endless :-)...",
 					"textcolor" : [ 0.996078431372549, 0.031372549019608, 0.968627450980392, 1.0 ]
 				}
 

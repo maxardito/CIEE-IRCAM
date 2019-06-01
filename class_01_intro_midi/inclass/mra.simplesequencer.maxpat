@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,33 +39,48 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 140.75, 137.0, 108.0, 20.0 ],
+					"text" : "Counts from 0 - 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 8.0, 109.0, 20.0 ],
+					"patching_rect" : [ 20.0, 8.0, 108.0, 20.0 ],
 					"text" : "Turn sequence on"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.75, 263.0, 150.0, 20.0 ],
+					"patching_rect" : [ 207.75, 263.0, 112.0, 20.0 ],
 					"text" : "Notes in sequence"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 36.0, 121.0, 20.0 ],
+					"patching_rect" : [ 151.0, 36.0, 115.0, 20.0 ],
 					"text" : "Speed of sequence"
 				}
 
@@ -180,6 +195,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,

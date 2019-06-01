@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 375.0, 79.0, 1138.0, 553.0 ],
+		"rect" : [ 602.0, 79.0, 1138.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 327.5, 115.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "Notes are transposed drunkenly between 0-30 steps above their initial value"
 				}
 
@@ -57,8 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 372.0, 89.0, 115.0, 60.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 372.0, 89.0, 103.0, 60.0 ],
 					"text" : "Random notes within an octave between MIDI values 40-52"
 				}
 

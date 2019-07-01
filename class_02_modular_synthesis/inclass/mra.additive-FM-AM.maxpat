@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 56.0, 235.0, 75.0, 20.0 ],
+					"text" : "[multislider]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-29",
 					"linecount" : 2,
@@ -299,6 +310,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.996078431372549, 0.603921568627451, 0.070588235294118, 1.0 ],
 					"id" : "obj-145",
 					"maxclass" : "newobj",
 					"numinlets" : 9,
@@ -315,7 +327,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 139.0, 79.0, 485.0, 289.0 ],
+						"rect" : [ 635.0, 79.0, 485.0, 289.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1065,6 +1077,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.996078431372549, 0.603921568627451, 0.070588235294118, 1.0 ],
 					"id" : "obj-134",
 					"maxclass" : "newobj",
 					"numinlets" : 9,
@@ -1081,7 +1094,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 471.0, 79.0, 458.0, 333.0 ],
+						"rect" : [ 108.0, 79.0, 458.0, 333.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1948,7 +1961,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 493.0, 89.0, 515.0, 502.0 ],
+						"rect" : [ 638.0, 459.0, 515.0, 502.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

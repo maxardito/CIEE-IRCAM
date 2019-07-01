@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 519.0, 451.0, 1149.0, 535.0 ],
+		"rect" : [ 61.0, 79.0, 1166.0, 858.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,44 +39,80 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 136.0, 512.666681945323944, 31.0, 22.0 ],
+					"text" : "stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.333336353302002, 512.666681945323944, 34.0, 22.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 36.0, 544.000016212463379, 55.0, 22.0 ],
+					"text" : "jit.record"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "Macintosh HD:/Users/Maxwell/Documents/ciee-class/class_11_multimedia_jitter/inclass/sonic.mp4",
+								"absolutepath" : "sonic.mp4",
 								"filename" : "sonic.mp4",
 								"filekind" : "moviefile",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u571003279" ],
 									"dim" : [ 1, 1 ],
-									"autostart" : [ 1 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"looppoints_ms" : [ 0, 0 ],
-									"time_ms" : [ 0 ],
-									"drawto" : [ "" ],
-									"unique" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"loopend" : [ 0 ],
-									"interp" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"position" : [ 0.0 ],
-									"loopstart" : [ 0 ],
-									"loopreport" : [ 0 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"framereport" : [ 0 ],
-									"looppoints_secs" : [ 0.0, 0.0 ],
-									"engine" : [ "avf" ],
-									"vol" : [ 0 ],
-									"time_secs" : [ 0.0 ],
-									"usesrcrect" : [ 0 ],
-									"moviefile" : [ "" ],
-									"automatic" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"texture_name" : [ "u237003277" ],
 									"time" : [ 0 ],
+									"adapt" : [ 1 ],
+									"automatic" : [ 0 ],
+									"looppoints_secs" : [ 0.0, 0.0 ],
+									"unique" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"time_secs" : [ 0.0 ],
+									"loopstart" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"texture_name" : [ "u237003277" ],
+									"autostart" : [ 1 ],
+									"colormode" : [ "argb" ],
+									"interp" : [ 0 ],
+									"position" : [ 0.0 ],
+									"drawto" : [ "" ],
+									"vol" : [ 0 ],
+									"looppoints_ms" : [ 0, 0 ],
+									"looppoints" : [ 0, 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"time_ms" : [ 0 ],
+									"loopend" : [ 0 ],
 									"usedstrect" : [ 0 ],
-									"looppoints" : [ 0, 0 ]
+									"rate" : [ 1.0 ],
+									"moviefile" : [ "" ],
+									"output_texture" : [ 0 ],
+									"framereport" : [ 0 ],
+									"engine" : [ "avf" ]
 								}
 
 							}
@@ -183,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 410.5, 379.0, 148.0, 23.0 ],
+					"patching_rect" : [ 390.499999403953552, 392.0, 148.0, 23.0 ],
 					"text" : "jit.op @op <p @val 127"
 				}
 
@@ -223,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 410.5, 355.0, 133.0, 23.0 ],
+					"patching_rect" : [ 390.499999403953552, 365.0, 133.0, 23.0 ],
 					"text" : "jit.noise 2 char 10 10"
 				}
 
@@ -268,13 +304,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 761.0, 60.0, 140.0, 35.0 ],
-					"text" : "jit.mo.func @function perlin @speed 0.002"
+					"patching_rect" : [ 761.0, 60.0, 228.0, 22.0 ],
+					"text" : "jit.mo.func @function perlin @speed 0.02"
 				}
 
 			}
@@ -293,13 +328,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 712.5, 17.5, 136.0, 35.0 ],
-					"text" : "jit.mo.func @function perlin @speed 0.002"
+					"patching_rect" : [ 719.0, 16.833333313465118, 228.0, 22.0 ],
+					"text" : "jit.mo.func @function perlin @speed 0.02"
 				}
 
 			}
@@ -370,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.0, 143.0, 257.0, 23.0 ]
+					"patching_rect" : [ 450.333333313465118, 143.0, 257.0, 23.0 ]
 				}
 
 			}
@@ -383,7 +417,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 424.0, 230.0, 303.0, 23.0 ],
+					"patching_rect" : [ 424.0, 244.666667103767395, 303.0, 23.0 ],
 					"text" : "jit.gl.multiple krustykrabpizza 3 @glparams position"
 				}
 
@@ -423,7 +457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 26.0, 394.0, 53.0, 22.0 ],
+					"patching_rect" : [ 26.0, 385.333333075046539, 53.0, 22.0 ],
 					"text" : "jit.matrix"
 				}
 
@@ -483,8 +517,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 92.5, 439.0, 136.0, 22.0 ],
-					"text" : "jit.world krustykrabpizza"
+					"patching_rect" : [ 36.0, 463.333334028720856, 234.0, 22.0 ],
+					"text" : "jit.world @output_matrix 1 krustykrabpizza"
 				}
 
 			}
@@ -604,7 +638,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.0, 392.0, 215.0, 22.0 ]
+					"patching_rect" : [ 565.0, 393.0, 215.0, 22.0 ]
 				}
 
 			}
@@ -727,6 +761,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -736,6 +777,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 1 ],
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -773,6 +821,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -941,8 +996,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sonic.mp4",
-				"bootpath" : "~/Documents/ciee-class/class_11_multimedia_jitter/inclass",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/ciee-class/media",
+				"patcherrelativepath" : "../../media",
 				"type" : "mpg4",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 338.0, 194.0, 957.0, 527.0 ],
+		"rect" : [ 159.0, 178.0, 957.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 233.0, 26.0, 150.0, 114.0 ],
-					"text" : "The matrixctrl object in dial mode. Representd a 16 step sequencer, with each vertical row representing an 808 sound. Drag the dials to change volume of each step"
+					"text" : "The matrixctrl object in dial mode. Represents a 16 step sequencer, with each vertical row representing an 808 sound. Drag the dials to change volume of each step"
 				}
 
 			}

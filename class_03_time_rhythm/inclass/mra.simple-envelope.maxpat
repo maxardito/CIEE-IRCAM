@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 712.0, 769.5, 80.0, 20.0 ],
+					"text" : "[meter~]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 582.0, 817.0, 80.0, 20.0 ],
+					"text" : "[levelmeter~]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-82",
 					"linecount" : 3,
 					"maxclass" : "comment",

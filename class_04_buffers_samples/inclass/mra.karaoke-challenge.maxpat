@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 92.0, 967.0, 674.0 ],
+		"rect" : [ 127.0, 79.0, 973.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,11 +58,11 @@
 				"box" : 				{
 					"fontface" : 2,
 					"id" : "obj-35",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 453.0, 226.5, 103.0, 47.0 ],
+					"patching_rect" : [ 453.0, 226.5, 111.0, 33.0 ],
 					"text" : "Playback speeds between 1. and 3."
 				}
 
@@ -179,13 +179,13 @@
 					"patching_rect" : [ 117.333343505859375, 528.0, 153.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "mc.live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -229,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 721.3333740234375, 113.0, 56.0, 22.0 ],
+					"patching_rect" : [ 721.3333740234375, 118.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 

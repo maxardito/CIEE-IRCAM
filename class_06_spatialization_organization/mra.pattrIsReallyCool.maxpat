@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 236.0, 79.0, 852.0, 471.0 ],
+		"rect" : [ 55.0, 79.0, 1297.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -285,12 +285,12 @@
 					"patching_rect" : [ 35.0, 336.0, 165.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -444,15 +444,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 609.0, 378.0, 132.0, 22.0 ],
 					"restore" : 					{
-						"Tempo" : [ 621.0 ],
-						"fifth" : [ 67 ],
-						"live.gain~" : [ -70.0 ],
-						"root" : [ 60 ],
-						"third" : [ 64 ]
+						"Tempo" : [ 378.0 ],
+						"fifth" : [ 84 ],
+						"live.gain~" : [ -18.932141066473584 ],
+						"root" : [ 54 ],
+						"third" : [ 69 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u731001675"
+					"varname" : "u000003088"
 				}
 
 			}
@@ -499,7 +499,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 618.125, 99.25, 183.0, 22.0 ],
+					"patching_rect" : [ 618.125, 123.250000715255737, 183.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 1072, 45, 1455, 407 ],
 						"parameter_enable" : 0,

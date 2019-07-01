@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 465.0, 182.0, 751.0, 591.0 ],
+		"rect" : [ 847.0, 79.0, 751.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"id" : "obj-21",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 509.0, 61.0, 150.0, 74.0 ],
+					"text" : "phasor~ cuts off our signal from every just from 1. to 0. so we need to add the amplitude modulation below"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-2",
@@ -48,7 +61,7 @@
 					"patching_rect" : [ 104.5, 27.0, 191.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 182.0, 32.0, 150.0, 42.0 ],
+					"presentation_rect" : [ 182.0, 32.0, 153.0, 42.0 ],
 					"text" : "Delay-Based Pitch Shift"
 				}
 
@@ -385,12 +398,12 @@
 					"patching_rect" : [ 43.0, 361.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0
 						}
 
 					}

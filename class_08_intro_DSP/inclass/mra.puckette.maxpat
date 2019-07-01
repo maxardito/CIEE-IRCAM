@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 901.0, 196.0, 670.0, 492.0 ],
+		"rect" : [ 720.0, 157.0, 670.0, 492.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,25 +39,51 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.0, 170.0, 53.0, 22.0 ],
-					"text" : "minvel 7"
+					"fontface" : 2,
+					"id" : "obj-27",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 219.0, 22.5, 76.0, 47.0 ],
+					"presentation_linecount" : 2,
+					"text" : "3.) Hit learn 0 to exit learn mode"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.0, 142.0, 72.0, 22.0 ],
-					"text" : "thresh 2.5 5"
+					"patching_rect" : [ 337.0, 109.0, 121.0, 22.0 ],
+					"text" : "loadmess minvel 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 113.0, 180.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 460.0, 109.0, 150.0, 47.0 ],
+					"text" : "1.) Set the minvel to a level that's clear (in MIDI velocity)"
 				}
 
 			}
@@ -107,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 403.0, 118.0, 80.0, 13.0 ]
+					"patching_rect" : [ 380.166666666666742, 84.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -119,7 +145,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 370.0, 58.0, 24.0, 24.0 ]
+					"patching_rect" : [ 380.166666666666742, 34.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -130,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 315.75, 95.0, 29.5, 22.0 ],
+					"patching_rect" : [ 325.916666666666742, 71.0, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -142,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 308.0, 37.0, 45.0, 45.0 ]
+					"patching_rect" : [ 318.166666666666742, 6.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -330,8 +356,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 95.0, 75.0, 74.0 ],
-					"text" : "Write what bonk~ learned to a file, or read a file"
+					"patching_rect" : [ 6.0, 109.0, 75.0, 74.0 ],
+					"text" : "4.) Write what bonk~ learned to a file, or read a file"
 				}
 
 			}
@@ -343,8 +369,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 6.0, 76.0, 60.0 ],
-					"text" : "Hit each instrument ten times (learn \"10\")"
+					"patching_rect" : [ 93.5, 6.0, 119.0, 60.0 ],
+					"text" : "2.) Hit learn 10 to learn each instrument ten times (learn \"10\")"
 				}
 
 			}
@@ -379,7 +405,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 95.0, 33.0, 22.0 ],
+					"patching_rect" : [ 83.0, 109.0, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -475,12 +501,12 @@
 						"halftones" : 6.0,
 						"hithresh" : 5.0,
 						"hop" : 128,
-						"learn" : 10,
+						"learn" : 0,
 						"lothresh" : 2.5,
 						"maskdecay" : 0.699999988079071,
 						"masktime" : 4,
 						"minbandwidth" : 1.5,
-						"minvel" : 7.0,
+						"minvel" : 100.0,
 						"nfilters" : 11,
 						"npoints" : 256,
 						"overlap" : 1.0,
@@ -511,7 +537,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -533,6 +568,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 146.25, 339.0, 109.0, 339.0 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -540,6 +576,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 113.5, 348.0, 109.0, 348.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -554,6 +591,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 92.5, 132.0, 213.5, 132.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -561,6 +599,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 92.5, 159.0, 131.0, 159.0, 131.0, 132.0, 213.5, 132.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -589,6 +628,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 464.25, 330.0, 109.0, 330.0 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -596,6 +636,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 431.5, 339.0, 109.0, 339.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -603,6 +644,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 307.916666666666686, 339.0, 109.0, 339.0 ],
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -610,7 +652,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"midpoints" : [ 275.166666666666686, 339.0, 109.0, 339.0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 346.5, 132.0, 213.5, 132.0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -701,20 +752,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}

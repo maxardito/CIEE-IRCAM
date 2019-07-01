@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 414.0, 79.0, 1146.0, 694.0 ],
+		"rect" : [ 285.0, 79.0, 1392.0, 861.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,17 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 376.000011205673218, 542.000016152858734, 150.0, 20.0 ],
+					"text" : "kslider"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-114",
@@ -278,7 +289,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-69",
-					"items" : [ "AU DLS Synth 1", ",", "UltraLite-mk4 MIDI Out", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Xio" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -315,12 +326,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-64",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 911.9444580078125, 291.5, 121.0, 22.0 ],
-					"text" : "midievent 128 48 79"
+					"patching_rect" : [ 911.9444580078125, 291.5, 121.0, 35.0 ],
+					"text" : "midievent 176 105 110"
 				}
 
 			}
@@ -427,12 +439,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 715.72222900390625, 211.0, 50.0, 22.0 ],
-					"text" : "1 0"
+					"patching_rect" : [ 715.72222900390625, 211.0, 50.0, 35.0 ],
+					"text" : "105 110"
 				}
 
 			}
@@ -456,7 +469,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 608.83331298828125, 211.0, 50.0, 22.0 ],
-					"text" : "48 0"
+					"text" : "41 0"
 				}
 
 			}
@@ -490,7 +503,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 848.5555419921875, 551.0, 66.33331298828125, 20.0 ],
-					"text" : "(slider)",
+					"text" : "[slider]",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -502,7 +515,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 576.77777099609375, 551.0, 66.33331298828125, 20.0 ],
-					"text" : "(pictslider)",
+					"text" : "[pictslider]",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

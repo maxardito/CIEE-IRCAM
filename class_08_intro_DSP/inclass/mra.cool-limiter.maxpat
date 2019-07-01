@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 432.0, 279.0, 77.0, 47.0 ],
+					"patching_rect" : [ 432.0, 279.0, 81.0, 47.0 ],
 					"text" : "Turn process.mp3 into city pop!"
 				}
 
@@ -491,20 +491,20 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 152.0, 69.0, 216.0, 22.0 ],
+					"patching_rect" : [ 152.0, 69.0, 205.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 201648.587755102023948, "ticks" ],
-						"originaltempo" : 119.999999999999986,
+						"originallength" : [ 2708.876190476190459, "ticks" ],
+						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "sfplay~ @audiofile crispy.mp3 @loop 1"
+					"text" : "sfplay~ @audiofile jongly.aif @loop 1"
 				}
 
 			}
@@ -798,8 +798,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-30" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-13" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}

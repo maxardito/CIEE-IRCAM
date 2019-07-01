@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 666.0, 79.0, 396.0, 535.0 ],
+		"rect" : [ 780.0, 79.0, 482.0, 533.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 383.0, 99.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "int" ],
+					"patching_rect" : [ 383.0, 142.0, 77.0, 22.0 ],
+					"text" : "unpack 0.1 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.431372549019608, 0.92156862745098, 0.823529411764706, 1.0 ],
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -58,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.5, 400.0, 81.0, 60.0 ],
+					"patching_rect" : [ 197.0, 396.0, 81.0, 60.0 ],
 					"text" : "It clicks and distorts quite a bit, so no good!"
 				}
 
@@ -117,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 186.0, 254.0, 29.5, 22.0 ],
+					"patching_rect" : [ 186.0, 238.0, 29.5, 22.0 ],
 					"text" : "-~"
 				}
 
@@ -238,7 +262,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.934209585189819, 465.368419885635376, 45.0, 45.0 ]
+					"patching_rect" : [ 127.934209585189819, 454.368419885635376, 45.0, 45.0 ]
 				}
 
 			}
@@ -308,6 +332,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 392.5, 165.0, 336.0, 165.0, 336.0, 147.0, 284.5, 147.0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 450.5, 258.0, 253.5, 258.0 ],
+					"source" : [ "obj-23", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}

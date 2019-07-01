@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 507.0, 501.0, 641.0, 319.0 ],
+		"rect" : [ 548.0, 114.0, 736.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,25 +71,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 270.0, 25.0, 58.0, 22.0 ],
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.847058823529412, 0.368627450980392, 0.368627450980392, 1.0 ],
-					"buffername" : "filterBuf",
-					"clipdraw" : 1,
-					"gridcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"id" : "obj-35",
-					"maxclass" : "waveform~",
-					"numinlets" : 5,
-					"numoutlets" : 6,
-					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 270.0, 161.0, 345.0, 101.0 ],
-					"selectioncolor" : [ 0.847058823529412, 0.847058823529412, 0.337254901960784, 1.0 ],
-					"setmode" : 4,
-					"voffset" : 1.0,
-					"vzoom" : 2.0
 				}
 
 			}
@@ -174,6 +155,26 @@
 					}
 ,
 					"text" : "sfplay~ @audiofile deus-misertus.mp3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.847058823529412, 0.368627450980392, 0.368627450980392, 1.0 ],
+					"buffername" : "filterBuf",
+					"clipdraw" : 1,
+					"gridcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"id" : "obj-35",
+					"maxclass" : "waveform~",
+					"numinlets" : 5,
+					"numoutlets" : 6,
+					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
+					"patching_rect" : [ 270.0, 161.0, 345.0, 101.0 ],
+					"selectioncolor" : [ 0.847058823529412, 0.847058823529412, 0.337254901960784, 1.0 ],
+					"setmode" : 4,
+					"voffset" : 1.0,
+					"vzoom" : 2.0
 				}
 
 			}

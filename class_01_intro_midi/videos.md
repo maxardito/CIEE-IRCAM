@@ -3,13 +3,17 @@ Pics http://www.philippemanoury.com/?page_id=15
 
 -------
 
-Unveiling of the 4x (feat. Frank Zappa): https://medias.ircam.fr/x7b9990
+Unveiling of the 4x (feat. Frank Zappa 11:45): https://medias.ircam.fr/x7b9990
 Pic: https://en.wikipedia.org/wiki/Sogitec_4X#/media/File:IRCAM_machine_room_in_1989.jpg
 
 -------
 
 Miller Puckette: https://en.wikipedia.org/wiki/Miller_Puckette
 NExT: https://www.youtube.com/watch?v=Udi0rk3jZYM
+
+------
+
+The DLS Synth https://docs.cycling74.com/max5/vignettes/core/dls_synthesizer.html
 
 ------
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 218.0, 276.0 ],
+		"rect" : [ 990.0, -71.0, 625.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 21.0, 150.0, 208.0 ],
-					"text" : "ASSIGNMENT 2\nComputer Music Bonanza\n\nCreate one of the following:\n\n-Totally sick live electroacoustic piece\n-Totally rad fixed media piece using record~ or a DAW of your choice\n-Totally tubular algorithmic piece/sound that runs generatively, with a clock, or with transport"
+					"patching_rect" : [ 33.0, 21.0, 151.0, 208.0 ],
+					"text" : "ASSIGNMENT 2\nComputer Music Bonanza\n\nCreate one of the following:\n\n-Totally sick live electroacoustic piece\n-Totally rad fixed media piece using record~ or a DAW of your choice\n-Totally tubular algorithmic piece/sound installation that runs generatively, with a clock, or with transport"
 				}
 
 			}

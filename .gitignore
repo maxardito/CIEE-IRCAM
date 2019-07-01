@@ -1,3 +1,4 @@
 #ignore audio files
 **/sounds
 **/media
+**/class_13_externals_IoT_web/inclass/weather-patch/node_modules

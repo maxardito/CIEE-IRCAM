@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,17 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 202.0, 367.0, 50.0, 20.0 ],
+					"text" : "[itable]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"linecount" : 4,
@@ -162,7 +173,7 @@
 					"patching_rect" : [ 53.0, 241.0, 144.0, 146.0 ],
 					"range" : 127,
 					"size" : 12,
-					"table_data" : [ 0, 64, 66, 71, 73, 74, 66, 64, 73, 71, 66, 74, 73 ]
+					"table_data" : [ 0, 64, 66, 71, 73, 74, 66, 64, 73, 46, 66, 74, 73 ]
 				}
 
 			}

@@ -1,0 +1,36 @@
+{
+	"parameter_map" : 	{
+		"midi" : 		{
+			"slider" : 			{
+				"srcname" : "109.ctrl.0.chan.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"slider[1]" : 			{
+				"srcname" : "110.ctrl.0.chan.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"slider[2]" : 			{
+				"srcname" : "111.ctrl.0.chan.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"slider[3]" : 			{
+				"srcname" : "92.ctrl.0.chan.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+
+		}
+
+	}
+
+}

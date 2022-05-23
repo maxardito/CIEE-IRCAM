@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 79.0, 638.0, 538.0 ],
+		"rect" : [ 749.0, 169.0, 638.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,16 +37,42 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-5",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 229.0, 68.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 285.0, 101.0, 114.0, 22.0 ],
+					"text" : "scale~ -1. 1. 1. 800."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"id" : "obj-18",
-					"linecount" : 7,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 24.0, 189.0, 100.0 ],
-					"text" : "This specific instance is a highpass with a modulating LFO. Be careful with modulation and filters though, Max can't handle them that well and you'll end up blowing your ears out most of the time"
+					"patching_rect" : [ 420.0, 34.0, 189.0, 74.0 ],
+					"text" : "This specific instance is a highpass with a modulating LFO. Be careful with modulation and filters though. Hitting 0-frequency cutoffs will make your ears hurt"
 				}
 
 			}
@@ -63,7 +89,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 125.0, 98.0, 100.0, 23.0 ]
+					"patching_rect" : [ 125.0, 108.0, 100.0, 23.0 ]
 				}
 
 			}
@@ -75,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 321.0, 104.0, 114.0 ],
+					"patching_rect" : [ 420.0, 331.0, 104.0, 114.0 ],
 					"text" : "biquad~ is the swiss-army knife of filters in Max, when combined with filtercoeff~. Select a type of filter from the umenu above"
 				}
 
@@ -88,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.75, 24.0, 222.0, 24.0 ],
+					"patching_rect" : [ 30.75, 34.0, 222.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 240.0, 59.0, 152.0, 42.0 ],
@@ -105,7 +131,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 362.75, 98.0, 50.0, 22.0 ]
+					"patching_rect" : [ 361.0, 35.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -117,7 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 46.0, 209.0, 24.0, 24.0 ]
+					"patching_rect" : [ 46.0, 219.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -128,19 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 46.0, 249.0, 179.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"mode" : "basic",
-						"originallength" : [ 269884.60408163262764, "ticks" ],
-						"originaltempo" : 120.0,
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
+					"patching_rect" : [ 46.0, 259.0, 179.0, 22.0 ],
 					"text" : "sfplay~ @audiofile process.mp3"
 				}
 
@@ -152,20 +166,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 285.0, 98.0, 63.0, 22.0 ],
+					"patching_rect" : [ 285.0, 35.0, 63.0, 22.0 ],
 					"text" : "cycle~ 0.2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 285.0, 136.0, 44.0, 22.0 ],
-					"text" : "*~ 800"
 				}
 
 			}
@@ -176,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 285.0, 165.0, 46.0, 22.0 ],
+					"patching_rect" : [ 285.0, 175.0, 46.0, 22.0 ],
 					"text" : "+~ 500"
 				}
 
@@ -192,8 +194,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 486.0, 141.0, 56.0, 22.0 ],
-					"sig" : 20.0
+					"patching_rect" : [ 486.0, 151.0, 56.0, 22.0 ],
+					"sig" : 26.0
 				}
 
 			}
@@ -208,8 +210,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 385.5, 141.0, 56.0, 22.0 ],
-					"sig" : 1.0
+					"patching_rect" : [ 385.5, 151.0, 56.0, 22.0 ],
+					"sig" : 4.86
 				}
 
 			}
@@ -219,7 +221,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.75, 438.0, 58.75, 58.75 ]
+					"patching_rect" : [ 234.75, 448.0, 58.75, 58.75 ]
 				}
 
 			}
@@ -233,16 +235,16 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 234.75, 369.0, 178.0, 47.0 ],
+					"patching_rect" : [ 234.75, 379.0, 178.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -259,7 +261,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 234.75, 286.0, 270.25, 22.0 ],
+					"patching_rect" : [ 234.75, 296.0, 270.25, 22.0 ],
 					"text" : "biquad~"
 				}
 
@@ -272,7 +274,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 285.0, 205.0, 220.0, 22.0 ],
+					"patching_rect" : [ 285.0, 215.0, 220.0, 22.0 ],
 					"text" : "filtercoeff~ highpass"
 				}
 
@@ -289,7 +291,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 7.5, 600.5, 504.5 ],
+					"patching_rect" : [ 16.25, 10.5, 600.5, 504.5 ],
 					"proportion" : 0.5
 				}
 
@@ -332,7 +334,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
+					"destination" : [ "obj-3", 4 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -383,6 +385,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -397,14 +406,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -412,7 +414,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 55.5, 282.0, 244.25, 282.0 ],
+					"midpoints" : [ 55.5, 292.0, 244.25, 292.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -424,13 +426,21 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-13" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],

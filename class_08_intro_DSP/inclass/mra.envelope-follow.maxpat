@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,8 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.0, 113.0, 93.0, 127.0 ],
-					"presentation_linecount" : 9,
+					"patching_rect" : [ 339.0, 113.0, 95.0, 127.0 ],
 					"text" : "Use gain~ for envelope following, or else you'll hear artifacts of the envelope signal because of amplitude modulation"
 				}
 
@@ -392,7 +391,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-25", 0 ]
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}

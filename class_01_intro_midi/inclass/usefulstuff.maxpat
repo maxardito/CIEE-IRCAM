@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 603.0, 79.0, 656.0, 463.0 ],
+		"rect" : [ 603.0, 87.0, 656.0, 463.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.5, 163.0, 29.5, 22.0 ],
+					"text" : "100"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "button",
@@ -244,8 +257,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 140.0, 163.0, 22.0 ],
-					"text" : "Je m'appelle $1 est j'aime $2"
+					"patching_rect" : [ 450.0, 140.0, 157.0, 22.0 ],
+					"text" : "Je m'appelle $1 et j'aime $2"
 				}
 
 			}
@@ -280,8 +293,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.0, 169.0, 47.0, 22.0 ],
-					"text" : "62 127"
+					"patching_rect" : [ 259.0, 163.0, 29.5, 22.0 ],
+					"text" : "62"
 				}
 
 			}
@@ -327,6 +340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 19.0, 220.0, 150.0, 22.0 ]
 				}
 
@@ -476,6 +490,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 1 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

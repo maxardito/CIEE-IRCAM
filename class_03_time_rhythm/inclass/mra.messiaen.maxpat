@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 287.0, 79.0, 978.0, 650.0 ],
+		"rect" : [ 785.0, 79.0, 978.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 2,
@@ -62,23 +63,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 495.75, 7.0, 62.5, 38.0 ],
 					"text" : "Toggle On"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"border" : 3,
-					"bordercolor" : [ 0.125490196078431, 0.501960784313725, 0.552941176470588, 1.0 ],
-					"grad1" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
-					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"id" : "obj-66",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 782.5, 337.0, 156.0, 283.0 ],
-					"proportion" : 0.5
 				}
 
 			}
@@ -312,8 +296,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -346,6 +330,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -919,6 +904,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"border" : 3,
+					"bordercolor" : [ 0.125490196078431, 0.501960784313725, 0.552941176470588, 1.0 ],
+					"grad1" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
+					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-66",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 782.5, 337.0, 156.0, 283.0 ],
+					"proportion" : 0.5
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1291,21 +1293,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "polyBloop.maxpat",
-				"bootpath" : "~/Documents/ciee-class/class_03_time_rhythm/inclass",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "polyBleep.maxpat",
-				"bootpath" : "~/Documents/ciee-class/class_03_time_rhythm/inclass",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 

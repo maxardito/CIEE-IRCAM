@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 587.0, 79.0, 471.0, 502.0 ],
+		"rect" : [ 587.0, 87.0, 471.0, 502.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,15 +37,16 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 15,
+					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 224.0, 220.0, 208.0 ],
-					"text" : "SUPER FUN LAB\n\n1.) Break into groups of three\n2.) Turn your laptops into an awesome instrument with the key, keyup, and mousestate objects\n3.) Give it at least two different poly~ objects \n4.) Use envelopes, FM, AM, PM, additive synthesis, and/or playback [with sfplay~]\n5.) Make your debut as a laptop trio ensemble with a totally sick 1 minute miniature\n6.) right on right on"
+					"patching_rect" : [ 125.0, 224.0, 220.0, 181.0 ],
+					"text" : "SUPER FUN LAB\n\n1.) Break into groups of three\n2.) Turn your laptops into an awesome instrument with the key, keyup, and mousestate objects\n3.) Utilize MC or poly~ at least once\n4.) Use envelopes, FM, AM, PM, additive synthesis, and/or playback [with sfplay~]\n5.) Make your debut as a laptop trio ensemble with a totally sick 1 minute miniature"
 				}
 
 			}

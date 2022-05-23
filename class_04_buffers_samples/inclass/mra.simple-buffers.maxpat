@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 196.0, 79.0, 708.0, 734.0 ],
+		"rect" : [ 196.0, 87.0, 708.0, 734.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 280.0, 107.0, 75.0, 22.0 ],
+					"text" : "attr setmode"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-36",
 					"linecount" : 4,
@@ -56,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 43.0, 150.0, 87.0 ],
+					"patching_rect" : [ 306.0, 18.0, 150.0, 87.0 ],
 					"text" : "Use the setmode attribute to use the waveform~ object for some fun stuff. Try setmode Draw to mess around with the wavetable"
 				}
 
@@ -68,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.0, 129.0, 92.0, 60.0 ],
+					"patching_rect" : [ 530.0, 129.0, 95.0, 60.0 ],
 					"text" : "View wavetable with the waveform~ object"
 				}
 
@@ -109,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 625.0, 449.0, 58.0, 42.0 ],
+					"patching_rect" : [ 625.0, 449.0, 60.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 255.0, 74.0, 150.0, 24.0 ],
 					"text" : "Buffer Info"
@@ -345,21 +358,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 243.0, 527.0, 52.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"basictuning" : 440,
-						"followglobaltempo" : 0,
-						"formantcorrection" : 0,
-						"loopend" : [ 0.0, "ms" ],
-						"loopstart" : [ 0.0, "ms" ],
-						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
-						"originaltempo" : 120.0,
-						"phase" : [ 0.0, "ticks" ],
-						"pitchcorrection" : 0,
-						"quality" : "basic",
-						"timestretch" : [ 0 ]
-					}
-,
 					"text" : "groove~"
 				}
 
@@ -470,6 +468,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 280.0, 132.0, 182.0, 22.0 ]
 				}
 
@@ -559,6 +558,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"midpoints" : [ 32.5, 42.0, 32.5, 42.0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -664,6 +672,13 @@
 					"destination" : [ "obj-25", 0 ],
 					"order" : 1,
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 439.0, 79.0, 790.0, 715.0 ],
+		"rect" : [ 417.0, 87.0, 790.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-47",
@@ -48,8 +49,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -82,6 +83,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-41",
@@ -325,19 +327,6 @@
 , 			{
 				"box" : 				{
 					"fontface" : 3,
-					"id" : "obj-40",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 665.733333333333348, 102.0, 69.0, 60.0 ],
-					"text" : "Juan Atkins would be proud..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -396,8 +385,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -430,6 +419,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -464,18 +454,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
 									"patching_rect" : [ 55.0, 324.0, 106.0, 62.0 ],
-									"saved_object_attributes" : 									{
-										"basictuning" : 440,
-										"followglobaltempo" : 0,
-										"formantcorrection" : 0,
-										"mode" : "basic",
-										"originallength" : [ 70170.720000000001164, "ticks" ],
-										"originaltempo" : 120.0,
-										"pitchcorrection" : 0,
-										"quality" : "basic",
-										"timestretch" : [ 0 ]
-									}
-,
 									"text" : "sfplay~ @audiofile funkguitar.aiff @loop 1"
 								}
 
@@ -855,7 +833,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 444.0, 453.0, 57.0, 22.0 ],
+					"patching_rect" : [ 444.0, 429.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -878,8 +856,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -912,6 +890,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1390,7 +1369,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 380.0, 453.0, 57.0, 22.0 ],
+					"patching_rect" : [ 380.0, 429.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1796,7 +1775,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 389.5, 477.0, 77.5, 477.0 ],
+					"midpoints" : [ 389.5, 469.0, 77.5, 469.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1804,7 +1783,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 453.5, 489.0, 77.5, 489.0 ],
+					"midpoints" : [ 453.5, 480.0, 77.5, 480.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1892,7 +1871,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"midpoints" : [ 623.233333333333348, 438.0, 427.5, 438.0 ],
+					"midpoints" : [ 623.233333333333348, 399.0, 427.5, 399.0 ],
 					"order" : 1,
 					"source" : [ "obj-57", 0 ]
 				}
@@ -1901,7 +1880,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 623.233333333333348, 438.0, 491.5, 438.0 ],
+					"midpoints" : [ 623.233333333333348, 415.0, 491.5, 415.0 ],
 					"order" : 0,
 					"source" : [ "obj-57", 0 ]
 				}

@@ -23,7 +23,6 @@ Conlon Nancarrow, Studies for Player Piano (No 21): https://www.youtube.com/watc
 ------
 
 MIDI retro: https://www.youtube.com/watch?v=7sACo5QntGc
-Chick Corea Elektric Band: https://www.youtube.com/watch?v=sSJYlfHjrTE
 Matthew D. Gantt at The Glove: https://www.youtube.com/watch?v=5TfpU5rdBTg
 
 ------

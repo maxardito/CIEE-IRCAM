@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 1,
@@ -154,8 +155,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 3.180851063829786, 0.76, 0, 97.015957446808741, 0.76, 0, 246.515957446808841, 0.346666666666667, 0, 299.000000000000682, 0.0, 0 ],
-					"domain" : 299.0,
+					"addpoints" : [ 0.0, 0.0, 0, 3.702127659574465, 0.76, 0, 112.914893617021562, 0.76, 0, 286.914893617021733, 0.346666666666667, 0, 348.000000000000909, 0.0, 0 ],
+					"domain" : 348.0,
 					"id" : "obj-18",
 					"maxclass" : "function",
 					"numinlets" : 1,

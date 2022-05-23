@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 506.0, 79.0, 554.0, 494.0 ],
+		"rect" : [ 386.0, 87.0, 554.0, 494.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -45,18 +46,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.0, 367.0, 50.0, 20.0 ],
 					"text" : "[itable]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 284.0, 150.0, 60.0 ],
-					"text" : "\"do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do-do...\""
 				}
 
 			}
@@ -173,7 +162,7 @@
 					"patching_rect" : [ 53.0, 241.0, 144.0, 146.0 ],
 					"range" : 127,
 					"size" : 12,
-					"table_data" : [ 0, 64, 66, 71, 73, 74, 66, 64, 73, 46, 66, 74, 73 ]
+					"table_data" : [ 0, 64, 66, 71, 73, 74, 66, 64, 73, 71, 66, 74, 73 ]
 				}
 
 			}

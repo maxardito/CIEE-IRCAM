@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 249.0, 79.0, 1138.0, 553.0 ],
+		"rect" : [ 336.0, 155.0, 1138.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
@@ -45,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 327.5, 115.0, 74.0 ],
-					"text" : "Notes are transposed drunkenly between 0-30 steps above their initial value"
+					"text" : "Notes are transposed drunkenly between 0-60 steps above their initial value"
 				}
 
 			}
@@ -156,7 +157,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.0, 346.0, 84.0, 22.0 ],
-					"text" : "43 41 50 42"
+					"text" : "40 49 50 47"
 				}
 
 			}
@@ -813,7 +814,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 226.0, 208.0, 65.0, 22.0 ],
-					"text" : "drunk 30 5"
+					"text" : "drunk 60 5"
 				}
 
 			}
@@ -886,7 +887,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 147.25, 233.0, 29.5, 22.0 ],
-					"text" : "41"
+					"text" : "48"
 				}
 
 			}
@@ -898,7 +899,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 106.25, 233.0, 29.5, 22.0 ],
-					"text" : "45"
+					"text" : "51"
 				}
 
 			}
@@ -910,7 +911,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 63.0, 233.0, 29.5, 22.0 ],
-					"text" : "46"
+					"text" : "48"
 				}
 
 			}
@@ -922,7 +923,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 233.0, 29.5, 22.0 ],
-					"text" : "43"
+					"text" : "42"
 				}
 
 			}
